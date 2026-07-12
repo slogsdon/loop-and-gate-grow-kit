@@ -66,7 +66,7 @@ You're about to post a launch page. You run `/grow-and-gate`:
 
 - **Gate ∞.** High reach, permanent, hard to walk back → it earns the full per-piece
   set.
-- **Gate 2.** The agent lists five things you could say; you cut to the one claim that
+- **Gate 2.** The agent lists five things you could say, and you cut to the one claim that
   speaks to your audience's real hesitation.
 - **Gate 3.** The design looks clean but generic. Checked against your taste profile,
   it's "could be anyone" — send it back until it's yours.
