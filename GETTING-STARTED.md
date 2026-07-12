@@ -34,7 +34,7 @@ first** — it walks you through installing Claude Code — then come back for t
 ## Step 1 — set up the Foundation kit first
 
 Go to the Foundation kit and follow its getting-started guide:
-https://github.com/YOUR_USERNAME/second-brain-agent
+https://github.com/slogsdon/second-brain-agent
 
 It installs Claude Code for you and, most important for growth, has you run its
 **profile-interview** — a conversation that teaches the AI your voice and your taste.
@@ -45,7 +45,7 @@ Do that before coming back. The design and copy gates here depend on it.
 Open a terminal (Mac: `Cmd+Space`, type "Terminal", Enter). Paste:
 
 ```bash
-git clone https://github.com/YOUR_USERNAME/loop-and-gate-grow-kit.git
+git clone https://github.com/slogsdon/loop-and-gate-grow-kit.git
 cd loop-and-gate-grow-kit
 ```
 
@@ -109,7 +109,7 @@ build, which you bring back to market.
 - `reference/grow-gates.md` — the full list of decision points, in plain language,
   each with a "what to do if this isn't your strength."
 - `reference/tools.md` — the exact tools this uses today, and how to swap in your own.
-- The **Build Kit** — https://github.com/YOUR_USERNAME/loop-and-gate-build-kit — is
+- The **Build Kit** — https://github.com/slogsdon/loop-and-gate-build-kit — is
   the other half of the loop, for building the product itself.
 
 ---
@@ -119,7 +119,7 @@ build, which you bring back to market.
 You have Claude Code and the Foundation kit (with profiles built). Then:
 
 ```bash
-git clone https://github.com/YOUR_USERNAME/loop-and-gate-grow-kit.git
+git clone https://github.com/slogsdon/loop-and-gate-grow-kit.git
 cd loop-and-gate-grow-kit && ./scripts/setup.sh
 ```
 

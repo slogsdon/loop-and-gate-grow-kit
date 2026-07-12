@@ -46,7 +46,7 @@ marketing background and no terminal experience.
 **Already run Claude Code?**
 
 ```bash
-git clone https://github.com/YOUR_USERNAME/loop-and-gate-grow-kit.git
+git clone https://github.com/slogsdon/loop-and-gate-grow-kit.git
 cd loop-and-gate-grow-kit && ./scripts/setup.sh
 ```
 
@@ -57,7 +57,7 @@ plugins to install, and the Foundation kit you need first.
 
 Not optional. The design gate checks output against your **taste profile** and the
 copy gate against your **voice profile**, and both live in the Foundation kit
-([second-brain-agent](https://github.com/YOUR_USERNAME/second-brain-agent)). Set it
+([second-brain-agent](https://github.com/slogsdon/second-brain-agent)). Set it
 up and run its `profile-interview` first, or Gates 3 and 4 are just guessing.
 
 ## What it looks like
@@ -81,7 +81,7 @@ difference is Gate ∞ doing its job.
 ## The other half of the loop
 
 This is the grow side. The **Build Kit**
-([loop-and-gate-build-kit](https://github.com/YOUR_USERNAME/loop-and-gate-build-kit))
+([loop-and-gate-build-kit](https://github.com/slogsdon/loop-and-gate-build-kit))
 is the build side — taking an idea to shipped software. They close a loop: this kit's
 last gate reads what the market did and writes the signal to the Foundation vault,
 where the Build Kit's first gate picks it up to decide what to build next. Same

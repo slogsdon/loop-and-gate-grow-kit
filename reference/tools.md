@@ -48,7 +48,7 @@ The design and copy skills are public, installable through the public
 
 You also need the **Foundation kit** for the taste and voice profiles these skills
 read. If you haven't set it up, do that first:
-https://github.com/YOUR_USERNAME/second-brain-agent
+https://github.com/slogsdon/second-brain-agent
 
 Scheduling (Gate 5) is optional. Connect a free-tier posting account only if you
 want the agent to place posts for you — otherwise post by hand. The gate is the
