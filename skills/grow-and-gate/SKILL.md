@@ -96,4 +96,4 @@ real signal die in a dashboard — the write-back is what closes the loop.
 ## The pipeline underneath
 
 Which skills fill the space between the gates is a disposable, dated snapshot — see
-`reference/tools.md`. Never anchor on the tools; anchor on the gates.
+`reference/tools.md`. Never anchor on the tools. Anchor on the gates.

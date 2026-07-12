@@ -57,7 +57,7 @@ decision (channel, format, time), not the tool.
 ## Compose your own
 
 Grow stacks vary far more than build stacks, so this matters more here than on the
-build side. The gates are what's fixed; the tools are interchangeable. Map each gate
+build side. The gates are what's fixed. The tools are interchangeable. Map each gate
 to whatever you already use:
 
 - **Design (G3)** — any generator you trust, judged against your taste profile. Swap

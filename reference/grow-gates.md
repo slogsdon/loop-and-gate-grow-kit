@@ -31,7 +31,7 @@ _Lens: all of them, above the others. The master gate._
   at voice and a send. A launch page earns audience, claim, design, copy, and a
   scheduled rollout.
 - **Good judgment:** Read reach and permanence first, and let them set the process.
-  Ephemeral and low-reach gets a light touch; permanent, high-reach, or hard to walk
+  Ephemeral and low-reach gets a light touch. Permanent, high-reach, or hard to walk
   back gets the full set. Never confuse "I posted a lot" with "I said the right thing
   in the right place."
 - **Not your lens:** The further something reaches, the longer it lives, or the
@@ -127,7 +127,7 @@ _Lens: Design._
 - **Not your lens:** This is where the taste profile earns its keep — the agent has a
   standard to check against instead of guessing. Ask it to critique its own output
   against your taste profile and name what's generic. One rule you can judge: swap the
-  logo for a competitor's; if it still fits, it's not yet yours.
+  logo for a competitor's. If it still fits, it's not yet yours.
 - **Failure modes:** Shipping on-trend slop because it's technically clean. Judging by
   "looks nice." Letting the generator's default aesthetic become your brand by
   accident.
@@ -161,7 +161,7 @@ _Lens: Marketing / Content._
 - **Not your lens:** Ask the agent where your specific audience spends time and what
   format performs there, then reshape rather than cross-posting one shape everywhere.
   Timing rule: don't publish what you can't be around to respond to. A free-tier
-  scheduler helps you place it; the where-and-when is your call.
+  scheduler helps you place it. The where-and-when is your call.
 - **Failure modes:** Blasting the same asset to every channel. Wrong format for the
   channel. Publishing into a window you can't watch, so the conversation dies
   untended.
