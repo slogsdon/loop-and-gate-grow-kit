@@ -1,65 +1,55 @@
-# Getting Started (from zero)
+# Getting Started (no terminal)
 
-This guide assumes **nothing**. No marketing background, never opened a terminal, not
-sure what a plugin is. If that's you, you're exactly who this is for. About 20
-minutes, most of it one-time setup.
+This is the path for someone who has never opened a terminal and doesn't want to.
+Everything here is download-and-click. About 20 minutes, most of it one-time.
 
-If you already run Claude Code, skip to
-[the short version](#short-version-if-youre-already-set-up).
+Prefer the terminal? The [README](README.md) has the `git clone` path.
 
 ## What you're about to set up
 
 Four layers, bottom to top:
 
-1. **Claude Code** — the AI that reads and writes files and does the work. The engine.
+1. **Claude Code** — the AI that does the work. Installed as a **Desktop app**.
 2. **The Foundation kit** — gives the AI a memory and, crucially for growth, learns
    **how you write and what you find tasteful**. This kit *requires* it, because the
-   design and copy gates check the AI's output against your taste and voice. Without
-   it, those gates are guessing.
-3. **The design + copy skills** — two free add-ons that generate on-brand design and
+   design and copy gates check the AI's output against your taste and voice.
+3. **The design + copy skills** — two free plugins that generate on-brand design and
    draft copy in your voice.
-4. **This kit** — the *judgment layer*. It stops the growth loop at the points where a
-   human has to decide (who's this for, what's the one claim, is this design ours, is
-   this copy true, where does it go) and walks you through each.
+4. **This kit** — the *judgment layer*. It stops the growth work at the points where
+   a human has to decide (who's this for, what's the one claim, is this design ours,
+   is this copy true, where does it go) and walks you through each. Added as a
+   **plugin**.
 
-Because layer 2 is required here, the easiest path is to **set up the Foundation kit
-first** — it walks you through installing Claude Code — then come back for this one.
+Because layer 2 is required here, **start with the Foundation kit** — it's the
+gentler on-ramp and it installs Claude Code for you — then come back for this one.
 
-## Step 0 — what you need
+## What you need
 
-- A Mac or Linux computer. (On Windows, install "WSL" first — search "install WSL" —
-  and follow along inside it.)
-- A Claude subscription or API key.
+- A **Mac or Windows** computer.
+- A **paid Claude plan** — Pro or Max. **The free Claude plan does not include
+  Claude Code.**
 
 ## Step 1 — set up the Foundation kit first
 
-Go to the Foundation kit and follow its getting-started guide:
-https://github.com/slogsdon/second-brain-agent
+Go to [second-brain-agent](https://github.com/slogsdon/second-brain-agent) and
+follow its no-terminal getting-started. It walks you through installing the Claude
+Code Desktop app, and — most important for growth — has you run its
+**profile-interview**, a conversation that teaches the AI your voice and taste. Do
+that before coming back. The design and copy gates here depend on it.
 
-It installs Claude Code for you and, most important for growth, has you run its
-**profile-interview** — a conversation that teaches the AI your voice and your taste.
-Do that before coming back. The design and copy gates here depend on it.
+## Step 2 — add this kit (inside the app)
 
-## Step 2 — get this kit
+In the Code chat box, type:
 
-Open a terminal (Mac: `Cmd+Space`, type "Terminal", Enter). Paste:
-
-```bash
-git clone https://github.com/slogsdon/loop-and-gate-grow-kit.git
-cd loop-and-gate-grow-kit
+```
+/plugin marketplace add slogsdon/loop-and-gate-grow-kit
 ```
 
-## Step 3 — run setup
+A menu appears. Click **Install** on the *loop-and-gate-grow-kit* plugin.
 
-```bash
-./scripts/setup.sh
-```
+## Step 3 — add the design and copy skills
 
-It installs this kit's skill and prints the remaining steps. Follow what it prints.
-
-## Step 4 — install the design and copy skills
-
-The script tells you to open Claude Code (`claude`) and paste these:
+Same place, paste these one at a time:
 
 ```
 /plugin marketplace add slogsdon/claude-code-config
@@ -67,61 +57,44 @@ The script tells you to open Claude Code (`claude`) and paste these:
 /plugin install skills-writing@slogsdon-claude-code-config
 ```
 
-`skills-design` generates on-brand design, `skills-writing` drafts and cleans up copy
-in your voice. Both read the profiles you built in the Foundation kit.
+`skills-design` generates on-brand design, `skills-writing` drafts and cleans up
+copy in your voice. Both read the profiles you built in the Foundation kit.
 
-## Step 5 — set your strategy once
+## Step 4 — set your strategy once
 
-Before making anything, fill in `templates/audience-brief.md`. It's a short form: who
-you're talking to, what actually moves them, and what would count as "it worked."
-You do this once per campaign, and everything you make points back to it.
+Type `/grow-and-gate` and tell it you're setting up a campaign. It walks you through
+the audience and what "it worked" means — the strategy that everything you make
+points back to. You do this once per campaign, not per post.
 
-## Step 6 — make your first piece
+## Step 5 — make your first piece
 
-In Claude Code, type:
-
-```
-/grow-and-gate
-```
-
-Tell it what you're making (a post, a landing page) in plain words. It will:
+Type `/grow-and-gate` and tell it what you're making (a post, a landing page). It
+will:
 
 - **Size the piece first** — a quick post gets a light touch, a launch page gets the
   full treatment.
 - **Walk the gates that piece earns** — the one claim, the design, the copy, the
-  channel — and hand each decision to you.
+  channel — handing each decision to you.
 - **Check the design against your taste and the copy against your voice**, using the
   profiles from the Foundation kit, so what ships sounds and looks like you.
 
-Scheduling (where and when to post) is Gate 5. You can connect a free posting account
+Scheduling (where and when to post) is the last gate. Connect a free posting account
 later, or just post by hand — the gate is the decision, not the tool.
 
-## Step 7 — read what happened, and feed it back
+## Step 6 — read what happened, and feed it back
 
-After things are live, run `/grow-and-gate` again and tell it you're reading results.
-It checks the real outcome against what you defined as "it worked," and writes what
-you learned back into the Foundation memory — where the **Build Kit** picks it up to
-decide what to build next. That's the loop: what the market tells you shapes what you
-build, which you bring back to market.
+After things are live, run `/grow-and-gate` and tell it you're reading results. It
+checks the real outcome against what you defined as "it worked," and writes what you
+learned back into the Foundation memory — where the **Build Kit** picks it up to
+decide what to build next. That's the loop.
 
-## Where to go when you're stuck
+## The other half
 
-- `reference/grow-gates.md` — the full list of decision points, in plain language,
-  each with a "what to do if this isn't your strength."
-- `reference/tools.md` — the exact tools this uses today, and how to swap in your own.
-- The **Build Kit** — https://github.com/slogsdon/loop-and-gate-build-kit — is
-  the other half of the loop, for building the product itself.
+The **Build Kit** —
+[loop-and-gate-build-kit](https://github.com/slogsdon/loop-and-gate-build-kit) — is
+the build side, for building the product itself. Same method, both halves.
 
----
+## Prefer the terminal?
 
-## Short version (if you're already set up)
-
-You have Claude Code and the Foundation kit (with profiles built). Then:
-
-```bash
-git clone https://github.com/slogsdon/loop-and-gate-grow-kit.git
-cd loop-and-gate-grow-kit && ./scripts/setup.sh
-```
-
-Install `skills-design` + `skills-writing` as the script prints, fill
-`templates/audience-brief.md`, and run `/grow-and-gate`.
+`git clone` the repo and use the `grow-and-gate` skill directly — see the
+[README](README.md).

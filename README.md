@@ -36,22 +36,31 @@ cadences, and Gate ∞ (how much does this piece deserve?) runs every time:
 | `skills/grow-and-gate/` | The operating skill: run a piece through the gates it earns. |
 | `reference/tools.md` | A dated snapshot of the tools that fill the space between the gates, with install commands. Disposable on purpose. |
 | `templates/audience-brief.md` | The strategy-cadence form (audience, switching forces, defined win). |
-| `scripts/setup.sh` | Installs the skill and prints the plugin + Foundation steps. Run once. |
+| `.claude-plugin/` | Marketplace + plugin manifest — lets you install this kit via `/plugin marketplace add`. |
+| `scripts/setup.sh` | Optional convenience for the terminal/clone path. Not needed for plugin install. |
 
 ## Install
 
 **New to this?** Read **[GETTING-STARTED.md](GETTING-STARTED.md)** — it assumes no
-marketing background and no terminal experience.
+marketing background and no terminal experience, and uses the Claude Code Desktop
+app.
 
-**Already run Claude Code?**
+**Have Claude Code? Install it as a plugin — no clone, no setup.** In the Code chat,
+type:
 
-```bash
-git clone https://github.com/slogsdon/loop-and-gate-grow-kit.git
-cd loop-and-gate-grow-kit && ./scripts/setup.sh
+```
+/plugin marketplace add slogsdon/loop-and-gate-grow-kit
 ```
 
-`setup.sh` installs the `grow-and-gate` skill and prints the rest: the design/copy
-plugins to install, and the Foundation kit you need first.
+then click **Install**. Run `/grow-and-gate` to set strategy, make a piece, or read
+results.
+
+This kit **needs the Foundation kit** (voice + taste profiles drive the design and
+copy gates) plus the free `skills-design` + `skills-writing` plugins — GETTING-STARTED
+lists the exact steps.
+
+**Prefer the terminal?** `git clone` this repo and use the `grow-and-gate` skill
+directly. `scripts/setup.sh` is an optional convenience for that path.
 
 ## This kit needs the Foundation kit
 

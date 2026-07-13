@@ -1,0 +1,18 @@
+{
+  "name": "loop-and-gate-grow-kit",
+  "owner": {
+    "name": "Shane Logsdon",
+    "email": "shane@shanelogsdon.com"
+  },
+  "metadata": {
+    "description": "Loop & Gate Grow Kit — a judgment layer for taking software to market with an agentic loop."
+  },
+  "plugins": [
+    {
+      "name": "loop-and-gate-grow-kit",
+      "source": "./",
+      "description": "The cadence-grouped grow gates (strategy / per-piece / feedback), plus the grow-and-gate operating skill. Needs the Foundation kit's voice + taste profiles.",
+      "category": "productivity"
+    }
+  ]
+}
