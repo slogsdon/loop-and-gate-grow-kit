@@ -96,6 +96,11 @@ last gate reads what the market did and writes the signal to the Foundation vaul
 where the Build Kit's first gate picks it up to decide what to build next. Same
 method, both halves, one customer at the center.
 
+## The whole stack
+
+[Loop & Gate](https://shane.logsdon.io/loop-and-gate/) is the overview page — the
+mental model, all four pieces, and how to install them together.
+
 ## The one rule
 
 The kit doesn't decide for you. It surfaces the call, applies the heuristics, puts
