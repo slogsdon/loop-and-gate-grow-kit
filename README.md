@@ -42,7 +42,7 @@ cadences, and Gate ∞ (how much does this piece deserve?) runs every time:
 ## Install
 
 **New to this?** Read **[GETTING-STARTED.md](GETTING-STARTED.md)** — it assumes no
-marketing background and no terminal experience, and uses the Claude Code Desktop
+marketing background and no terminal experience, and uses the Claude desktop
 app.
 
 **Have Claude Code? Install it as a plugin — no clone, no setup.** In the Code chat,
