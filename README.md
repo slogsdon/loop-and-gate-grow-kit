@@ -101,6 +101,12 @@ method, both halves, one customer at the center.
 [Loop & Gate](https://shane.logsdon.io/loop-and-gate/) is the overview page — the
 mental model, all four pieces, and how to install them together.
 
+Running this from more than one device? The Foundation's [Working across
+devices](https://github.com/slogsdon/second-brain-agent#working-across-devices)
+guide applies here too — market signals and gate output land in the same vault,
+so the same Remote Control, sync, and worktree discipline runs this kit from
+your phone, tablet, or desk, with nothing kit-specific to set up.
+
 ## The one rule
 
 The kit doesn't decide for you. It surfaces the call, applies the heuristics, puts
