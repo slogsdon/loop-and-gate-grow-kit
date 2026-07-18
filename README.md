@@ -101,6 +101,11 @@ method, both halves, one customer at the center.
 [Loop & Gate](https://shane.logsdon.io/loop-and-gate/) is the overview page — the
 mental model, all four pieces, and how to install them together.
 
+The gate method and the thinking behind it (Karpathy's system-prompt learning,
+Addy Osmani's self-improving agents, and more) are documented in the Foundation —
+see its [README](https://github.com/slogsdon/second-brain-agent) and
+[ARCHITECTURE.md](https://github.com/slogsdon/second-brain-agent/blob/main/ARCHITECTURE.md).
+
 Running this from more than one device? The Foundation's [Working across
 devices](https://github.com/slogsdon/second-brain-agent#working-across-devices)
 guide applies here too — market signals and gate output land in the same vault,
