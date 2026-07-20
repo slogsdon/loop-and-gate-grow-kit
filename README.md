@@ -1,5 +1,7 @@
 # Loop & Gate — Grow Kit
 
+[![Listed on ClaudePluginHub](https://www.claudepluginhub.com/badge/slogsdon-loop-and-gate-grow-kit)](https://www.claudepluginhub.com/plugins/slogsdon-loop-and-gate-grow-kit?ref=badge)
+
 A judgment layer for taking software to market with an agentic loop. Anyone can
 install the tools that generate design and draft copy. Almost nobody knows **where
 to intervene** — where a human has to decide whether the design is actually yours,
@@ -73,6 +75,17 @@ lists the exact steps.
 
 **Prefer the terminal?** `git clone` this repo and use the `grow-and-gate` skill
 directly. `scripts/setup.sh` is an optional convenience for that path.
+
+## Usage
+
+```
+/grow-and-gate        # set strategy, make a piece, or read results
+```
+
+**Gate ∞** runs every time to decide how much a piece deserves; the rest run in
+three cadences — strategy (set once), per-piece (every artifact), feedback
+(continuous). A quick reply earns a glance at voice and a send; a launch page
+earns the full per-piece set. Worked example below.
 
 ## This kit needs the Foundation kit
 
