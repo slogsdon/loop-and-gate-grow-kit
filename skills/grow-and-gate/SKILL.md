@@ -62,7 +62,7 @@ For each gate in the chosen set:
 
 ## The Foundation profiles (required)
 
-This kit assumes the Foundation kit (second-brain-agent) is present. Read
+This kit assumes the Foundation kit (loop-and-gate-foundation) is present. Read
 `vault/Profiles/` before working the design and copy gates:
 
 - **Gate 3 (design)** — check generated design against the **taste profile**. It's the

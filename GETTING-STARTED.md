@@ -31,7 +31,7 @@ gentler on-ramp and it installs Claude Code for you — then come back for this 
 
 ## Step 1 — set up the Foundation kit first
 
-Go to [second-brain-agent](https://github.com/slogsdon/second-brain-agent) and
+Go to [loop-and-gate-foundation](https://github.com/slogsdon/loop-and-gate-foundation) and
 follow its no-terminal getting-started. It walks you through installing the Claude
 desktop app, and — most important for growth — has you run its
 **profile-interview**, a conversation that teaches the AI your voice and taste. Do
@@ -97,7 +97,7 @@ the build side, for building the product itself. Same method, both halves.
 ## Working across devices
 
 Run this from your phone or tablet as well as your desk. Because the Grow Kit rides
-on the Foundation, the Foundation's [Working across devices](https://github.com/slogsdon/second-brain-agent#working-across-devices)
+on the Foundation, the Foundation's [Working across devices](https://github.com/slogsdon/loop-and-gate-foundation#working-across-devices)
 guide — Remote Control, Dispatch, and keeping your vault in sync — covers this kit
 too.
 

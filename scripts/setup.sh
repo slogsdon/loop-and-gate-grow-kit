@@ -39,7 +39,7 @@ Almost there. A few more steps, all inside Claude Code.
 STEP A — the Foundation kit is REQUIRED for this one.
 The grow gates for design and copy read your taste and voice profiles, which live
 in the Foundation kit. If you haven't set it up, do that first:
-  https://github.com/slogsdon/second-brain-agent
+  https://github.com/slogsdon/loop-and-gate-foundation
 Then run its profile-interview so the profiles exist.
 
 STEP B — install the design and copy skills. Open Claude Code (type `claude`),

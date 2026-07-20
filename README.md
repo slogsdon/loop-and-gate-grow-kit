@@ -17,6 +17,18 @@ wrong channel at the wrong time. So the loop has to stop at a fixed set of point
 wait for a human. Those points are the gates. **The gates are the asset. The tools
 are a disposable appendix.**
 
+## What this is / what it's not
+
+**It is** the human-decision gates for an agentic growth loop — a runnable
+grow-gates reference (`reference/grow-gates.md`) plus the `grow-and-gate` skill
+that runs a piece through only the gates it earns.
+
+**It is not** the design or copy tooling itself (it sits *on top of*
+`skills-design` + `skills-writing` — the disposable appendix), and it is not an
+autopilot: every gate stops for your decision. It also **needs the Foundation
+kit** — the design and copy gates check output against the taste and voice
+profiles that live there.
+
 ## The grow gates run in three rhythms
 
 Unlike the build side, these don't run in one straight pass. Growth is three
@@ -66,7 +78,7 @@ directly. `scripts/setup.sh` is an optional convenience for that path.
 
 Not optional. The design gate checks output against your **taste profile** and the
 copy gate against your **voice profile**, and both live in the Foundation kit
-([second-brain-agent](https://github.com/slogsdon/second-brain-agent)). Set it
+([loop-and-gate-foundation](https://github.com/slogsdon/loop-and-gate-foundation)). Set it
 up and run its `profile-interview` first, or Gates 3 and 4 are just guessing.
 
 ## What it looks like
@@ -103,11 +115,11 @@ mental model, all four pieces, and how to install them together.
 
 The gate method and the thinking behind it (Karpathy's system-prompt learning,
 Addy Osmani's self-improving agents, and more) are documented in the Foundation —
-see its [README](https://github.com/slogsdon/second-brain-agent) and
-[ARCHITECTURE.md](https://github.com/slogsdon/second-brain-agent/blob/main/ARCHITECTURE.md).
+see its [README](https://github.com/slogsdon/loop-and-gate-foundation) and
+[ARCHITECTURE.md](https://github.com/slogsdon/loop-and-gate-foundation/blob/main/ARCHITECTURE.md).
 
 Running this from more than one device? The Foundation's [Working across
-devices](https://github.com/slogsdon/second-brain-agent#working-across-devices)
+devices](https://github.com/slogsdon/loop-and-gate-foundation#working-across-devices)
 guide applies here too — market signals and gate output land in the same vault,
 so the same Remote Control, sync, and worktree discipline runs this kit from
 your phone, tablet, or desk, with nothing kit-specific to set up.
@@ -118,6 +130,15 @@ The kit doesn't decide for you. It surfaces the call, applies the heuristics, pu
 the agent to work making the decision defensible — then stops. Use it to *work* each
 gate and you level up on the lens you're missing. Use it to *skip* the gate and you
 just ship polished noise faster.
+
+## Contributing
+
+Issues and pull requests are welcome — see [CONTRIBUTING.md](CONTRIBUTING.md)
+for how to report bugs, propose gate or skill changes, and the PR conventions.
+One thing up front: the gates are the asset, so PRs that remove a gate or
+auto-approve one will be declined. See also the
+[Code of Conduct](CODE_OF_CONDUCT.md) and the
+[security policy](.github/SECURITY.md).
 
 ## Status
 
