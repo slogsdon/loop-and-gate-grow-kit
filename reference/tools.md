@@ -35,6 +35,15 @@ The whole tool footprint is two public plugins, one optional free account, and
 free platform analytics. You can work every gate with zero paid tools, and every
 gate with zero external accounts if you post by hand.
 
+One note on breadth, not a tool row: **G1 research is the one grow gate where
+running many agents at once genuinely pays** — independent angles (what the
+category covers, what buyers complain about, how competitors pitch) don't need
+each other's output, so they can run together and merge. The judgment stays
+yours; only the gathering widens. If you go that way, the Build Kit's
+`reference/fan-out.md` has the caps, the contract, and where to put the two human
+gates. Note that it's a way to *feed* G1 faster, never a way to answer it — the
+audience call is still the gate.
+
 ## Install the public layer
 
 The design and copy skills are public, installable through the public
