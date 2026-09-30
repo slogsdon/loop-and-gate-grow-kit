@@ -1,0 +1,11 @@
+{
+  "name": "loop-and-gate-grow-kit",
+  "version": "0.2.0",
+  "description": "A judgment layer for taking software to market with an agentic loop — cadence-grouped grow gates plus the grow-and-gate operating skill.",
+  "keywords": ["pi-package"],
+  "author": "Shane Logsdon <shane@shanelogsdon.com>",
+  "license": "MIT",
+  "repository": { "type": "git", "url": "git+https://github.com/slogsdon/loop-and-gate-grow-kit.git" },
+  "private": true,
+  "pi": { "skills": ["./skills"] }
+}
