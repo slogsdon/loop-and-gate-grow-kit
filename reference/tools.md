@@ -55,6 +55,13 @@ The design and copy skills are public, installable through the public
 /plugin install skills-writing@slogsdon-claude-code-config
 ```
 
+On pi:
+
+```bash
+pi install git:github.com/slogsdon/skills-design
+pi install git:github.com/slogsdon/skills-writing
+```
+
 You also need the **Foundation kit** for the taste and voice profiles these skills
 read. If you haven't set it up, do that first:
 https://github.com/slogsdon/loop-and-gate-foundation

@@ -51,6 +51,7 @@ cadences, and Gate ∞ (how much does this piece deserve?) runs every time:
 | `reference/tools.md` | A dated snapshot of the tools that fill the space between the gates, with install commands. Disposable on purpose. |
 | `templates/audience-brief.md` | The strategy-cadence form (audience, switching forces, defined win). |
 | `.claude-plugin/` | Marketplace + plugin manifest — lets you install this kit via `/plugin marketplace add`. |
+| `package.json` | pi package manifest — lets you install this kit via `pi install`. |
 | `scripts/setup.sh` | Optional convenience for the terminal/clone path. Not needed for plugin install. |
 
 ## Install
@@ -72,6 +73,15 @@ results.
 This kit **needs the Foundation kit** (voice + taste profiles drive the design and
 copy gates) plus the free `skills-design` + `skills-writing` plugins — GETTING-STARTED
 lists the exact steps.
+
+**Using pi?** One command, no clone:
+
+```bash
+pi install git:github.com/slogsdon/loop-and-gate-grow-kit
+```
+
+Then run `/skill:grow-and-gate`. The pi install lines for the design and copy
+skills are in `reference/tools.md`.
 
 **Prefer the terminal?** `git clone` this repo and use the `grow-and-gate` skill
 directly. `scripts/setup.sh` is an optional convenience for that path.

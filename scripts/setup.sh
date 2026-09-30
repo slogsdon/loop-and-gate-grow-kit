@@ -10,6 +10,23 @@ repo="$(pwd)"
 echo "== Loop & Gate Grow Kit — setup =="
 echo ""
 
+# 0. pi instead of Claude Code? pi installs the kit and its skills as packages,
+#    so there's nothing to symlink — just hand off the commands.
+if ! command -v claude >/dev/null 2>&1 && command -v pi >/dev/null 2>&1; then
+  echo "ok: pi found ($(pi --version 2>/dev/null | head -1))"
+  cat <<EOF
+
+In your terminal, install the kit and the design and copy skills:
+
+  pi install $repo
+  pi install git:github.com/slogsdon/skills-design
+  pi install git:github.com/slogsdon/skills-writing
+
+Then start pi and type:  /skill:grow-and-gate
+EOF
+  exit 0
+fi
+
 # 1. Claude Code present?
 if ! command -v claude >/dev/null 2>&1; then
   echo "MISSING: Claude Code isn't installed yet."

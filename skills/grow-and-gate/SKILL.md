@@ -9,6 +9,8 @@ One job: stop the growth loop at the points where a human has to decide, and mak
 the decision well. The agent drafts, generates variants, and schedules. This skill
 runs the gates.
 
+Every `reference/…` path here is relative to the kit root, two levels above this
+SKILL.md (`../../reference/grow-gates.md`).
 The full checklist for every gate is in `reference/grow-gates.md` — read it when you
 reach a gate. This skill is how you *operate* it. Unlike the build side, the grow
 gates run in three cadences, so the first thing to establish is which one you're in.
