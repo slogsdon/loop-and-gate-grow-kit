@@ -11,8 +11,11 @@ subtitle track only — no media file — so a 44-minute video takes about two s
 ## Run it
 
 ```bash
-skills/video-transcript/transcript.sh <url> [outdir] [lang]
+<this skill's directory>/transcript.sh <url> [outdir] [lang]
 ```
+
+`transcript.sh` sits next to this SKILL.md; run it by that absolute path, since the
+working directory is usually your project, not the kit.
 
 - `url` — full URL or bare YouTube ID. Extra query params (`?app=desktop`, `&ra=m`) are fine.
 - `outdir` — defaults to the current directory.
